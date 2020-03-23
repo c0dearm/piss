@@ -46,7 +46,7 @@ impl Decoder {
                 let byte = self.mask.join_chunks(&chunks);
 
                 // Write recovered byte
-                secret.write(&[byte])?;
+                secret.write_all(&[byte])?;
 
                 // Reset the LSB byte chunks buffer
                 chunks.clear()

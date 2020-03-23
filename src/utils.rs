@@ -40,7 +40,7 @@ impl ByteMask {
     }
 
     /// Inverse process, given a set of masked bytes, returns the original byte
-    pub fn join_chunks<'a, T>(&self, chunks: &'a T) -> u8
+    pub fn join_chunks<'a, T>(self, chunks: &'a T) -> u8
     where
         &'a T: IntoIterator<Item = &'a u8>,
     {

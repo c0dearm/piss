@@ -15,7 +15,7 @@ Run `piss --help` for usage.
 cargo install piss
 ```
 
-## Usage examples:
+## Usage examples
 ### Encode a secret into an image
 ```sh
 piss encode samples/the-matrix.jpg samples/secret.txt samples/the-matrix-reloaded.png

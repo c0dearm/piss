@@ -1,0 +1,18 @@
+[package]
+name = "piss"
+version = "0.1.0"
+authors = ["Aitor Ruano <codearm@pm.me>"]
+description = "PISS (Picture Secret Steganography) is a command line tool to encode/decode secrets into/from image files"
+homepage = "https://github.com/c0dearm/piss"
+repository = "https://github.com/c0dearm/piss"
+readme = "README.md"
+keywords = ["image", "picture", "steganography", "lsb", "secret"]
+categories = ["algorithms", "cryptography", "mathematics"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+image = "0.23"
